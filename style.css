@@ -1,0 +1,39 @@
+body {
+    font-family: "Poppins", serif;
+    justify-items: center;
+    margin: 180px;
+    color: white;
+    background-color: #FF6363;
+}
+
+.bigbox {
+    height: 100%;
+    width: 800px;
+    justify-items: center;
+}
+
+.container{
+    padding: 15px 15px;
+}
+
+.container h1 p{
+    align-items: center;
+}
+
+.box input{
+    width: 600px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+.box button{
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    font-size: medium;
+}
