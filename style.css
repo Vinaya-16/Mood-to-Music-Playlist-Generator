@@ -12,28 +12,39 @@ body {
     justify-items: center;
 }
 
-.container{
+.container {
     padding: 15px 15px;
 }
 
-.container h1 p{
+.container h1 p {
     align-items: center;
 }
 
-.box input{
+.box input {
+    font-size: medium;
     width: 600px;
     height: 30px;
     border: none;
     border-radius: 15px;
     padding: 5px 5px;
+    font-weight: 700;
+    color: #ff1c1cc1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-.box button{
-    margin-top: 10px;
+.box button {
+    color: #ff1c1cc1;
+    font-weight: 600;
+    margin-top: 15px;
     height: 30px;
     width: 150px;
     border: none;
     border-radius: 15px;
     background-color: white;
     font-size: medium;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#result {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
